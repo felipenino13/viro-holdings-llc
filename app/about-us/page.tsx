@@ -76,22 +76,26 @@ export default function AboutUs() {
     <div className="bg-[#0D1323] px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Core Sectors We Operate In</h2>
-        
-        <h3 className="text-1xl">Logistics & Freight Operations</h3>
-        <p>
-          We develop and operate logistics and freight platforms designed to support domestic and international trade. Our focus is on efficiency, clarity, and systems that enable the reliable movement of goods across markets.
-        </p>
-
-        <h3 className="text-1xl">Industrial Real Estate</h3>
-        <p>
-          We build and manage industrial real estate assets that support operational businesses. These assets are designed for long-term use, regulatory compliance, and adaptability to evolving operational needs.
-        </p>
-
-        <h3 className="text-1xl">Infrastructure & Operational Platforms</h3>
-        <p>
-          We support infrastructure-driven businesses by providing structured operational frameworks that emphasize reliability, compliance, and long-term performance.
-        </p>
-
+        <div className="grid grid-cols-1 sm:grid-cols-3">
+          <div>
+            <h3 className="text-1xl">Logistics & Freight Operations</h3>
+            <p>
+              We develop and operate logistics and freight platforms designed to support domestic and international trade. Our focus is on efficiency, clarity, and systems that enable the reliable movement of goods across markets.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-1xl">Industrial Real Estate</h3>
+            <p>
+              We build and manage industrial real estate assets that support operational businesses. These assets are designed for long-term use, regulatory compliance, and adaptability to evolving operational needs.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-1xl">Infrastructure & Operational Platforms</h3>
+            <p>
+              We support infrastructure-driven businesses by providing structured operational frameworks that emphasize reliability, compliance, and long-term performance.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 

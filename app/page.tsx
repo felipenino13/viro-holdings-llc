@@ -59,22 +59,26 @@ export default function Home() {
     <div className="bg-[#0D1323] px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Our Core Platforms</h2>
-        
-        <h3 className="text-1xl">Logistics & Freight</h3>
-        <p>
-          We operate logistics and freight platforms designed to support domestic and international trade, enabling efficient movement of goods through disciplined systems and operational clarity.
-        </p>
-
-        <h3 className="text-1xl">Industrial Real Estate</h3>
-        <p>
-          We develop and manage industrial real estate assets built for long-term performance, supporting tenants with reliable infrastructure, compliance, and scalable facilities.
-        </p>
-
-        <h3 className="text-1xl">Infrastructure & Operations</h3>
-        <p>
-          We provide operational and infrastructure solutions that support growth, risk management, and regulatory discipline across complex business environments.
-        </p>
-
+        <div className="grid grid-cols-1 sm:grid-cols-3">
+          <div>
+            <h3 className="text-1xl">Logistics & Freight</h3>
+            <p>
+              We operate logistics and freight platforms designed to support domestic and international trade, enabling efficient movement of goods through disciplined systems and operational clarity.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-1xl">Industrial Real Estate</h3>
+            <p>
+              We develop and manage industrial real estate assets built for long-term performance, supporting tenants with reliable infrastructure, compliance, and scalable facilities.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-1xl">Infrastructure & Operations</h3>
+            <p>
+              We provide operational and infrastructure solutions that support growth, risk management, and regulatory discipline across complex business environments.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
