@@ -69,7 +69,7 @@ export default function News() {
     <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">What We Share</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
           <div>
             <h3 className="text-1xl">Operational Insights</h3>
             <p>
