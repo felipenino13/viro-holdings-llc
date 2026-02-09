@@ -74,7 +74,7 @@ export default function Partnerships() {
         <p>
           Typical partners include:
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Operating businesses and platform operators</li>
           <li>Tenants and long-term occupants of industrial assets</li>
           <li>Service providers aligned with operational standards</li>
@@ -90,7 +90,7 @@ export default function Partnerships() {
         <p>
           We work with organizations and individuals who share a commitment to disciplined execution, compliance, and long-term value creation.
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Long-term orientation and shared objectives</li>
           <li>Commitment to operational discipline and compliance</li>
           <li>Clear roles, responsibilities, and expectations</li>
@@ -141,13 +141,6 @@ export default function Partnerships() {
         <p>
           Viro Holdings believes that strong partnerships are built through structure, discipline, and shared commitment to long-term objectives. We work with partners who value clarity, accountability, and operational excellence.
         </p>
-      </div>
-    </div>
-
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <a href="">Contact Us</a>
-        <a href="">Learn About Our Platforms</a>
       </div>
     </div>
 

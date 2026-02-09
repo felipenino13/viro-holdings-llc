@@ -72,7 +72,7 @@ export default function AboutUs() {
         <p>
           Viro Holdings operates with a clear and disciplined framework that guides every decision.
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Long-term ownership and operational mindset</li>
           <li>Disciplined systems and repeatable processes</li>
           <li>Strong emphasis on compliance and risk management</li>
@@ -117,7 +117,7 @@ export default function AboutUs() {
         <p>
           Our values guide how we operate, partner, and build.
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Operational excellence is non-negotiable</li>
           <li>Accountability at every level</li>
           <li>Compliance as a strategic advantage</li>
@@ -150,13 +150,7 @@ export default function AboutUs() {
         </p>
       </div>
     </div>
-
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <a href="">Contact Us</a>
-        <a href="">Learn About Our Platforms</a>
-      </div>
-    </div>
+    
     </>
   );
 }

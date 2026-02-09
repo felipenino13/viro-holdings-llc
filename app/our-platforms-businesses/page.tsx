@@ -77,7 +77,7 @@ export default function Platforms() {
         <p>
           Key focus areas include:
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Freight and logistics operations</li>
           <li>Supply chain coordination and support</li>
           <li>System-driven execution and performance oversight</li>
@@ -98,7 +98,7 @@ export default function Platforms() {
         <p>
           Key focus areas include:
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Industrial and logistics-oriented properties</li>
           <li>Long-term asset management and oversight</li>
           <li>Tenant-focused operational infrastructure</li>
@@ -119,7 +119,7 @@ export default function Platforms() {
         <p>
           Key focus areas include:
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Operational systems and process frameworks</li>
           <li>Infrastructure support for scaling businesses</li>
           <li>Risk-aware execution and oversight</li>
@@ -149,13 +149,6 @@ export default function Platforms() {
         <p>
           We focus on durability, execution, and sustainable value creation across every platform we operate.
         </p>
-      </div>
-    </div>
-
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <a href="">Learn About Our Operations & Compliance</a>
-        <a href="">Contact Us</a>
       </div>
     </div>
     

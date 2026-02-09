@@ -101,7 +101,7 @@ export default function Home() {
     <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Why Viro Holdings</h2>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Disciplined, system-driven operations</li>
           <li>Long-term ownership mindset</li>
           <li>Institutional-grade compliance and risk management</li>
@@ -114,7 +114,7 @@ export default function Home() {
     <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Our Operating Principles</h2>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Operational Excellence Is Non-Negotiable</li>
           <li>Long-Term Thinking Over Short-Term Wins</li>
           <li>Accountability at Every Level</li>
@@ -136,13 +136,6 @@ export default function Home() {
       </div>
     </div>
     
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <h2 className="text-2xl">Built for Long-Term Partnerships</h2>
-        <a href="">Contact Us</a>
-        <a href="">Schedule a Consultation</a>
-      </div>
-    </div>
     </>
   );
 }

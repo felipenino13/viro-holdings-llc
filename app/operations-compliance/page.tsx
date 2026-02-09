@@ -74,7 +74,7 @@ export default function Operations() {
         <p>
           Key elements of our operational systems include:
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Defined workflows and documented processes</li>
           <li>Clear roles, responsibilities, and escalation paths</li>
           <li>Performance monitoring and reporting mechanisms</li>
@@ -104,7 +104,7 @@ export default function Operations() {
         <p>
           Our approach includes:
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Proactive identification of operational and regulatory risks</li>
           <li>Structured review and approval processes</li>
           <li>Internal controls and documentation standards</li>
@@ -125,7 +125,7 @@ export default function Operations() {
         <p>
           Governance at Viro Holdings supports:
         </p>
-        <ul>
+        <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
           <li>Consistent operational standards</li>
           <li>Clear decision-making authority</li>
           <li>Alignment between strategy and execution</li>
@@ -158,12 +158,6 @@ export default function Operations() {
       </div>
     </div>
 
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <a href="">Learn About Our Platforms</a>
-        <a href="">Contact Us</a>
-      </div>
-    </div>
     </>
   );
 }
