@@ -35,14 +35,26 @@ export const metadata: Metadata = {
 export default function AboutUs() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
+
+    <div className="bg-[#0D1323] px-2 py-30 bg-[url(/images/banner-about-us-01.png)] bg-center bg-cover bg-no-repeat relative text-white">
+      {/* Overlay azul oscuro */}
+      <div className="absolute inset-0 bg-[#0D1323]/70">
+      </div>
+      
+      <div className="max-w-5xl mx-auto grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
+        <div className="grid col-span-2 gap-y-5">
           <h1 className="text-5xl">About Viro Holdings LLC</h1>
-          <h2 className="text-2xl">Building disciplined, scalable platforms across logistics, industrial real estate, and infrastructure.</h2>
+          <h2 className="text-1xl">Building disciplined, scalable platforms across logistics, industrial real estate, and infrastructure.</h2>
+          <div className="grid grid-cols-2 gap-5 max-w-sm">
+          </div>
+        </div>
+        <div>
+        </div>
+          
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Who We Are</h2>
         <p>
@@ -54,7 +66,7 @@ export default function AboutUs() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Our Approach</h2>
         <p>
@@ -73,7 +85,7 @@ export default function AboutUs() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Core Sectors We Operate In</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3">
@@ -99,7 +111,7 @@ export default function AboutUs() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Our Values & Operating Principles</h2>
         <p>
@@ -118,7 +130,7 @@ export default function AboutUs() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">How We Work With Partners</h2>
         <p>
@@ -130,7 +142,7 @@ export default function AboutUs() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Built for the Long Term</h2>
         <p>
@@ -139,7 +151,7 @@ export default function AboutUs() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <a href="">Contact Us</a>
         <a href="">Learn About Our Platforms</a>

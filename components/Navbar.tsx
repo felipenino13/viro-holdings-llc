@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const NAV_LINKS = [
-  { label: "Home", href: "/" },
+  //{ label: "Home", href: "/" },
   { label: "About Us", href: "/about-us" },
   { label: "Operations & Compliance", href: "/operations-compliance" },
   { label: "Our Platforms & Businesses", href: "/our-platforms-businesses" },
@@ -40,13 +40,13 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <nav className="mx-auto flex max-w-5xl items-center justify-between px-2 py-3">
         {/* Brand */}
         <Link href="/" className="text-base font-semibold tracking-tight">
           <Image
-            src="/images/viro-holdings-black_1.svg"   // ruta relativa a /public
+            src="/images/viro-holdings-color.svg"   // ruta relativa a /public
             alt="Viro Holdings Logo"
-            width={200}            // ancho real de la imagen
+            width={180}            // ancho real de la imagen
             height={300}            // alto real de la imagen
           />  
         </Link>

@@ -36,14 +36,30 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
+    <div className="bg-[#0D1323] px-2 py-10 bg-[url(/images/banner-contact-01.png)] bg-center bg-cover bg-no-repeat relative text-white">
+      {/* Overlay azul oscuro */}
+      <div className="absolute inset-0 bg-[#0D1323]/70">
+      </div>
+      
+      <div className="max-w-5xl mx-auto grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
+        <div className="grid gap-y-5 content-center">
           <h1 className="text-5xl">Contact Viro Holdings LLC</h1>
-          <h2 className="text-2xl">Professional inquiries, partnership discussions, and general information.</h2>
+          <p>
+          Viro Holdings LLC operates within the United States and engages with partners and operators across multiple regions.
+          </p>
+          <p>
+            United States<br></br>
+            info@viroholdingsllc.com
+          </p>
+        </div>
+        <div>
+          <ContactForm></ContactForm>
+        </div>
+          
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">How to Reach Us</h2>
         <p>
@@ -55,30 +71,7 @@ export default function Contact() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <div>
-          <ContactForm></ContactForm>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-[#0D1323] px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <h2 className="text-2xl">Contact Information</h2>
-        <p>
-          Viro Holdings LLC operates within the United States and engages with partners and operators across multiple regions.
-        </p>
-        <p>
-          United States
-        </p>
-        <p>
-          info@viroholdingsllc.com
-        </p>
-      </div>
-    </div>
-
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Professional Communication, Built on Clarity</h2>
         <p>

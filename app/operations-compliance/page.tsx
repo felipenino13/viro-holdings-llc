@@ -35,14 +35,25 @@ export const metadata: Metadata = {
 export default function Operations() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 py-20">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-            <h1 className="text-5xl">Operations & Compliance</h1>
-            <h2 className="text-2xl">Disciplined execution, structured operations, and compliance-driven decision-making.</h2>
-        </div>
+    <div className="bg-[#0D1323] px-2 py-30 bg-[url(/images/banner-operations-01.png)] bg-center bg-cover bg-no-repeat relative text-white">
+      {/* Overlay azul oscuro */}
+      <div className="absolute inset-0 bg-[#0D1323]/70">
       </div>
+      
+      <div className="max-w-5xl mx-auto grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
+        <div className="grid col-span-2 gap-y-5">
+          <h1 className="text-5xl">Operations & Compliance</h1>
+          <h2 className="text-1xl">Disciplined execution, structured operations, and compliance-driven decision-making.</h2>
+          <div className="grid grid-cols-2 gap-5 max-w-sm">
+          </div>
+        </div>
+        <div>
+        </div>
+          
+      </div>
+    </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Our Operational Philosophy</h2>
         <p>
@@ -54,7 +65,7 @@ export default function Operations() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">System-Driven Execution</h2>
         <p>
@@ -72,7 +83,7 @@ export default function Operations() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Compliance as a Core Principle</h2>
         <p>
@@ -84,7 +95,7 @@ export default function Operations() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Risk Management & Oversight</h2>
         <p>
@@ -105,7 +116,7 @@ export default function Operations() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Operational Governance</h2>
         <p>
@@ -126,7 +137,7 @@ export default function Operations() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Applied Across All Platforms</h2>
         <p>
@@ -138,7 +149,7 @@ export default function Operations() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Committed to Operational Discipline</h2>
         <p>
@@ -147,7 +158,7 @@ export default function Operations() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <a href="">Learn About Our Platforms</a>
         <a href="">Contact Us</a>

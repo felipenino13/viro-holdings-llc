@@ -1,4 +1,6 @@
+import Link from "next/link";
 import type { Metadata } from "next";
+import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
   title: "Viro Holdings LLC | Logistics, Industrial Real Estate & Infrastructure",
@@ -35,16 +37,30 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
+    <div className="bg-[#0D1323] px-2 py-30 bg-[url(/images/banner-home-01.png)] bg-center bg-cover bg-no-repeat relative text-white">
+      {/* Overlay azul oscuro */}
+      <div className="absolute inset-0 bg-[#0D1323]/70">
+      </div>
+
+      <div className="max-w-5xl mx-auto grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
+        <div className="grid col-span-2 gap-y-5">
           <h1 className="text-5xl">Building High-Performance Platforms for Logistics, Real Estate, and Infrastructure</h1>
-          <h2 className="text-2xl">We build and operate disciplined, compliant, and scalable platforms that empower businesses to grow sustainably and operate with confidence.</h2>
-          <a href="">Schedule a Consultation</a>
-          <a href="">Learn More</a>
+          <h2 className="text-1xl">We build and operate disciplined, compliant, and scalable platforms that empower businesses to grow sustainably and operate with confidence.</h2>
+          <div className="grid grid-cols-2 gap-5 max-w-sm">
+            <Button className="bg-[#BC9A7B] text-black">
+              <Link href="#">Schedule a Consultation</Link>
+            </Button>
+            <Button className="border-white border-solid border">
+              <Link href="#">Learn More</Link>
+            </Button>
+          </div>
+        </div>
+        <div>
+        </div>
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">A Multi-Sector Holding Company Built for Long-Term Execution</h2>
         <p>
@@ -56,7 +72,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Our Core Platforms</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3">
@@ -82,7 +98,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Why Viro Holdings</h2>
         <ul>
@@ -95,7 +111,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Our Operating Principles</h2>
         <ul>
@@ -108,7 +124,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Built for Long-Term Partnerships</h2>
         <p>
@@ -120,7 +136,7 @@ export default function Home() {
       </div>
     </div>
     
-    <div className="bg-[#0D1323] px-2 py-20">
+    <div className="px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
         <h2 className="text-2xl">Built for Long-Term Partnerships</h2>
         <a href="">Contact Us</a>
