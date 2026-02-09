@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -36,8 +35,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <Navbar></Navbar>
-
     <div className="bg-[#0D1323] px-2 py-20">
       <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
           <h1 className="text-5xl">Building High-Performance Platforms for Logistics, Real Estate, and Infrastructure</h1>
