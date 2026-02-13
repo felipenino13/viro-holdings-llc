@@ -41,7 +41,7 @@ export default function Contact() {
       <div className="absolute inset-0 bg-[#0D1323]/70">
       </div>
       
-      <div className="max-w-5xl mx-auto grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
         <div className="grid gap-y-5 content-center">
           <h1 className="text-5xl">Contact Viro Holdings LLC</h1>
           <p>

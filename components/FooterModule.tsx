@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function FooterModule(){
     return(
     <footer className="bg-[#04090F] px-2 py-10 text-white">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-4 gap-x-20 py-8">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-4 gap-x-20 py-8 gap-4">
             <div className="gap-4 grid">
             <Image
               src="/images/viro-holdings-white.svg"   // ruta relativa a /public
