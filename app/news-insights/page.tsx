@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "News & Insights | Updates & Perspectives from Viro Holdings LLC",
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Viro Holdings LLC",
     images: [
       {
-        url: "/og-home.jpg", // crea este archivo en /public
+        url: "/images/home-03.png", // crea este archivo en /public
         width: 1200,
         height: 630,
         alt: "Viro Holdings LLC",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     title: "News & Insights | Updates & Perspectives from Viro Holdings LLC",
     description:
       "Read the latest news, updates, and insights from Viro Holdings LLC on logistics, industrial real estate, infrastructure, and operational best practices.",
-    images: ["/og-home.jpg"],
+    images: ["/images/home-03.png"],
   },
 };
 
@@ -54,30 +55,40 @@ export default function News() {
       </div>
     </div>
 
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <h2 className="text-2xl">Purpose of This Section</h2>
-        <p>
-          The News & Insights section provides updates, perspectives, and commentary related to the platforms and industries in which Viro Holdings operates.
-        </p>
-        <p>
-          Content shared here reflects operational observations, company updates, and high-level market perspectives intended for informational purposes only.
-        </p>
+    <div className="px-2 py-10">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+        <div className="grid gap-4 content-start m-auto">
+          <h2 className="text-2xl">Purpose of This Section</h2>
+          <p>
+            The News & Insights section provides updates, perspectives, and commentary related to the platforms and industries in which Viro Holdings operates.
+          </p>
+          <p>
+            Content shared here reflects operational observations, company updates, and high-level market perspectives intended for informational purposes only.
+          </p>
+        </div>
+        <div>
+          <Image
+              src="/images/home-14.png"   // ruta relativa a /public
+              alt="Viro Holdings image"
+              width={600}            // ancho real de la imagen
+              height={300}            // alto real de la imagen
+            /> 
+        </div>
       </div>
     </div>
 
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <h2 className="text-2xl">What We Share</h2>
+    <div className="px-2 py-10 bg-[#F4F4F4]">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4 gap-10">
+        <h2 className="text-2xl text-center">What We Share</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
-          <div>
-            <h3 className="text-1xl">Operational Insights</h3>
+          <div className="bg-[#0A132D] text-white p-10 gap-4 grid">
+            <h3 className="text-xl text-[#E4D3B9]">Operational Insights</h3>
             <p>
               Perspectives on operational discipline, compliance-driven execution, and system-based management across logistics, real estate, and infrastructure environments.
             </p>
           </div>
-          <div>
-            <h3 className="text-1xl">Industry Perspectives</h3>
+          <div className="bg-[#0A132D] text-white p-10 gap-4 grid">
+            <h3 className="text-xl text-[#E4D3B9]">Industry Perspectives</h3>
             <p>
               High-level observations on trends affecting logistics, industrial real estate, and infrastructure-focused businesses—shared from an operator’s point of view.
             </p>

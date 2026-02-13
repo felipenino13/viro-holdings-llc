@@ -39,12 +39,12 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
+    <header className="sticky top-0 z-50 bg-[#0a132d] backdrop-blur">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-2 py-3">
         {/* Brand */}
         <Link href="/" className="text-base font-semibold tracking-tight">
           <Image
-            src="/images/viro-holdings-color.svg"   // ruta relativa a /public
+            src="/images/viro-holdings-white.svg"   // ruta relativa a /public
             alt="Viro Holdings Logo"
             width={180}            // ancho real de la imagen
             height={300}            // alto real de la imagen
@@ -61,7 +61,7 @@ export default function Navbar() {
                 href={item.href}
                 className={[
                   "text-sm transition-colors",
-                  active ? "font-semibold text-black" : "text-neutral-600 hover:text-black",
+                  active ? "font-semibold text-white" : "text-white hover:text-[#bc9a7b]",
                 ].join(" ")}
               >
                 {item.label}
@@ -73,7 +73,7 @@ export default function Navbar() {
         {/* Mobile button */}
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-md border px-3 py-2 text-sm md:hidden"
+          className="text-white inline-flex items-center justify-center rounded-md border px-3 py-2 text-sm md:hidden"
           aria-label="Open menu"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}

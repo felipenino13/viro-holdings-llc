@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Viro Holdings LLC",
     images: [
       {
-        url: "/og-home.jpg", // crea este archivo en /public
+        url: "/images/home-03.png", // crea este archivo en /public
         width: 1200,
         height: 630,
         alt: "Viro Holdings LLC",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Contact Viro Holdings LLC | Professional Inquiries & Partnerships",
     description:
       "Get in touch with Viro Holdings LLC for professional inquiries related to logistics, industrial real estate, infrastructure platforms, and long-term partnerships.",
-    images: ["/og-home.jpg"],
+    images: ["/images/home-03.png"],
   },
 };
 
@@ -47,10 +47,11 @@ export default function Contact() {
           <p>
           Viro Holdings LLC operates within the United States and engages with partners and operators across multiple regions.
           </p>
-          <p>
-            United States<br></br>
-            info@viroholdingsllc.com
-          </p>
+          <div>
+            <p className="text-sm">2323 NW 82nd Ave Doral FL 33122</p>
+            <p><a href="tel:+17862334973">(786) 233-4973</a></p>
+            <p className="text-sm">info@viroholdingsllc.com</p>
+          </div>
         </div>
         <div>
           <ContactForm></ContactForm>
@@ -60,26 +61,25 @@ export default function Contact() {
     </div>
 
     <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <h2 className="text-2xl">How to Reach Us</h2>
-        <p>
-          Viro Holdings LLC welcomes professional inquiries related to our platforms, operations, and long-term partnerships. We value clear communication and structured engagement and will respond to inquiries that align with our operational focus.
-        </p>
-        <p>
-          This contact channel is intended for business-related communications only.
-        </p>
-      </div>
-    </div>
-
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4">
-        <h2 className="text-2xl">Professional Communication, Built on Clarity</h2>
-        <p>
-          We value thoughtful, relevant communication aligned with our operational focus and long-term objectives.
-        </p>
-        <p>
-          We look forward to connecting where there is strategic and operational alignment.
-        </p>
+      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+        <div className="p-10 gap-4 grid content-start">
+          <h2 className="text-2xl">How to Reach Us</h2>
+          <p>
+            Viro Holdings LLC welcomes professional inquiries related to our platforms, operations, and long-term partnerships. We value clear communication and structured engagement and will respond to inquiries that align with our operational focus.
+          </p>
+          <p>
+            This contact channel is intended for business-related communications only.
+          </p>
+        </div>
+        <div className="p-10 gap-4 grid content-start border rounded-md">
+          <h2 className="text-2xl">Professional Communication, Built on Clarity</h2>
+          <p>
+            We value thoughtful, relevant communication aligned with our operational focus and long-term objectives.
+          </p>
+          <p>
+            We look forward to connecting where there is strategic and operational alignment.
+          </p>
+        </div>
       </div>
     </div>
 
