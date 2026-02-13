@@ -43,8 +43,8 @@ export default function FooterModule(){
             <div>
             <h5>Contact</h5>
                 <p className="text-sm">2323 NW 82nd Ave<br></br>Doral FL 33122</p>
-                <p className="text-sm">info@viroholdingsllc.com</p>
-                <p><a href="tel:+17862334973">(786) 233-4973</a></p>
+                <p className="text-sm"><Link href="mailto:info@viroholdingsllc.com">info@viroholdingsllc.com</Link></p>
+                <p><Link href="tel:+17862334973">(786) 233-4973</Link></p>
             </div>
         </div>
 
