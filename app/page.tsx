@@ -103,8 +103,65 @@ export default function Home() {
         </div>
       </div>
     </div>
+    
+    <div className="px-2 py-10 bg-[#FFF8EC]">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4 gap-10">
+        <h2 className="text-2xl text-center">Our Core Platforms</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-10">
+          <div className="bg-white border p-8 grid gap-4 text-center">
+            <Image
+              className="m-auto"
+              src="/icons/justice.svg"   // ruta relativa a /public
+              alt="Viro Holdings image"
+              width={60}            // ancho real de la imagen
+              height={100}            // alto real de la imagen
+            />  
+            <p className="text-xl">
+              Justice & Integrity
+            </p>
+          </div>
+          <div className="bg-white border p-8 grid gap-4 text-center">
+            <Image
+              className="m-auto"
+              src="/icons/growth.svg"   // ruta relativa a /public
+              alt="Viro Holdings image"
+              width={60}            // ancho real de la imagen
+              height={100}            // alto real de la imagen
+            />  
+            <p className="text-xl">
+              Growth
+            </p>
+          </div>
+          <div className="bg-white border p-8 grid gap-4 text-center">
+            <Image
+              className="m-auto"
+              src="/icons/partnership.svg"   // ruta relativa a /public
+              alt="Viro Holdings image"
+              width={60}            // ancho real de la imagen
+              height={100}            // alto real de la imagen
+            />  
+            <p className="text-xl">
+              Partnership
+            </p>
+          </div>
+          <div className="bg-white border p-8 grid gap-4 text-center">
+            <Image
+              className="m-auto"
+              src="/icons/mundial.svg"   // ruta relativa a /public
+              alt="Viro Holdings image"
+              width={60}            // ancho real de la imagen
+              height={100}            // alto real de la imagen
+            />  
+            <p className="text-xl">
+              Globar Vision
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
 
-    <div className="px-2 py-20 bg-[#111F42]">
+    <div className="px-2 py-10 bg-[#111F42]">
       <div className="max-w-5xl mx-auto grid sm:grid-cols-2 grid-cols-1 gap-x-20 py-4">
         <div>
             <Image
