@@ -38,7 +38,7 @@ export default function Partnerships() {
     <>
     <div className="bg-[#0D1323] px-2 pt-20 bg-[url(/images/partnership-01.jpeg)] bg-to bg-cover bg-no-repeat relative text-white -mt-30">
       {/* Overlay azul oscuro */}
-      <div className="absolute inset-0 bg-[#0D1323]/70">
+      <div className="absolute inset-0 bg-[#1F1F1F]/70">
       </div>
       
       <div className="max-w-6xl mx-auto py-60 grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
@@ -109,7 +109,7 @@ export default function Partnerships() {
       </div>
     </div>
 
-    <div className="px-2 py-10 bg-[#111F42]">
+    <div className="px-2 py-10 bg-[#1F1F1F]">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="text-white m-auto grid gap-4">
           <h2 className="text-2xl text-[#E4D3B9]">How We Structure Partnerships</h2>
