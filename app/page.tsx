@@ -160,7 +160,7 @@ export default function Home() {
 
     <div className="px-2 py-20 bg-[url(/images/logistic-xl-01-v2.jpg)] bg-center bg-cover bg-no-repeat ">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
-        <div className="bg-white grid gap-2 p-10 border rounded-md">
+        <div className=" grid gap-2 p-10 rounded-md backdrop-blur-lg bg-white/56 border border-white/20">
           <h2 className="text-2xl">Why Viro Holdings</h2>
           <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
             <li>Disciplined, system-driven operations</li>
@@ -170,7 +170,7 @@ export default function Home() {
             <li>Built to scale across markets and industries</li>
           </ul>
         </div>
-        <div className="bg-white grid gap-2 p-10 border rounded-md">
+        <div className="bg-white grid gap-2 p-10 border rounded-md backdrop-blur-lg bg-white/56 border border-white/20">
           <h2 className="text-2xl">Our Operating Principles</h2>
           <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
             <li>Operational Excellence Is Non-Negotiable</li>
