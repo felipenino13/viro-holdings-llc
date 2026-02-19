@@ -48,14 +48,7 @@ export default function Partnerships() {
           <div className="grid grid-cols-2 gap-5 max-w-sm">
           </div>
         </div>  
-        <div>
-          <Image
-              src="/images/partnership-01.jpeg"   // ruta relativa a /public
-              alt="Viro Holdings image"
-              width={600}            // ancho real de la imagen
-              height={300}            // alto real de la imagen
-            /> 
-        </div>        
+            
       </div>
     </div>
 
