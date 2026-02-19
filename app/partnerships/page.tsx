@@ -36,18 +36,26 @@ export const metadata: Metadata = {
 export default function Partnerships() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 py-30 bg-[url(/images/partnership-01.jpeg)] bg-center bg-cover bg-no-repeat relative text-white -mt-30">
+    <div className="bg-[#0D1323] px-2 pt-20 bg-[url(/images/partnership-01.jpeg)] bg-center bg-cover bg-no-repeat relative text-white -mt-30">
       {/* Overlay azul oscuro */}
       <div className="absolute inset-0 bg-[#0D1323]/70">
       </div>
       
-      <div className="max-w-5xl mx-auto py-20 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
-        <div className="grid col-span-2 gap-y-5">
+      <div className="max-w-5xl mx-auto py-20 grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
+        <div className="grid gap-y-5 m-auto">
           <h1 className="text-5xl">Partnerships</h1>
           <h2 className="text-1xl">Built on alignment, discipline, and long-term collaboration.</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">
           </div>
-        </div>          
+        </div>  
+        <div>
+          <Image
+              src="/images/partnership-01.jpeg"   // ruta relativa a /public
+              alt="Viro Holdings image"
+              width={600}            // ancho real de la imagen
+              height={300}            // alto real de la imagen
+            /> 
+        </div>        
       </div>
     </div>
 
