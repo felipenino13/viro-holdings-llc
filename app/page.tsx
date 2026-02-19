@@ -47,10 +47,10 @@ export default function Home() {
           <h1 className="text-6xl font-bold ">Viro Holdings LLC</h1>
           <h2 className="text-1xl">Strategic investment and advisory for sustainable business growth</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">
-            <Button className="bg-[#BC9A7B] text-black hover:bg-[#BC9A7B]">
+            <Button className="w-fit bg-[#BC9A7B] text-black hover:bg-[#BC9A7B]">
               <Link href="/contact">Schedule a Consultation</Link>
             </Button>
-            <Button className="border-white border-solid border">
+            <Button className="w-fit border-white border-solid border">
               <Link href="/about-us">Learn More</Link>
             </Button>
           </div>
