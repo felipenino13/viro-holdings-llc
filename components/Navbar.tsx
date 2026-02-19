@@ -23,6 +23,7 @@ function isActivePath(pathname: string, href: string) {
 export default function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   // Cierra el menú al navegar
   useEffect(() => {
@@ -38,9 +39,41 @@ export default function Navbar() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, []);
 
+  // Detecta scroll (>= 80px)
+  useEffect(() => {
+    function onScroll() {
+      setScrolled(window.scrollY >= 80);
+    }
+    onScroll(); // inicial
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <>
-    <header className="sticky top-0 z-50 backdrop-blur">
+    <header className={[
+        "sticky top-0 z-50 w-full",
+        "backdrop-blur-md",
+        "transition-colors duration-300",
+        scrolled ? "bg-[#181818]/80" : "bg-transparent",
+      ].join(" ")}>
+         {/* Top bar */}
+      <div className="w-full bg-[#1F1F1F]">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-2 py-2">
+          <p className="text-[13px] text-white/80">
+            {/* Cambia esto por tu dirección */}
+            2323 NW 82nd Ave Doral FL 33122
+          </p>
+
+          <a
+            href="tel:+13051234567"
+            className="text-[13px] text-white/90 hover:text-[#bc9a7b] transition-colors"
+          >
+            {/* Cambia esto por tu número */}
+            +1 (786) 233-4973
+          </a>
+        </div>
+      </div>
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-2 py-3">
         {/* Brand */}
         <Link href="/" className="text-base font-semibold tracking-tight">
