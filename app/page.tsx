@@ -38,15 +38,15 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 pb-30 bg-[url(/images/viroholdings-background-02.jpg)] bg-center bg-cover bg-no-repeat relative text-white">
+    <div className="bg-[#0D1323]  px-2 pb-10 bg-[url(/images/viroholdings-hero-montaje-01.jpg)] bg-center bg-cover bg-no-repeat relative text-white -mt-20">
       {/* Overlay azul oscuro */}
       
 
-      <div className="max-w-5xl mx-auto grid grid-col-1 sm:grid-cols-8 gap-x-20 py-4 gap-y-5 relative z-10">
-        <div className="grid col-span-4 col-start-1 sm:col-start-3 gap-y-5 py-30">
-          <h1 className="text-4xl text-center">Viro Holdings LLC</h1>
-          <h2 className="text-1xl text-center">Strategic investment and advisory for sustainable business growth</h2>
-          <div className="grid grid-cols-2 gap-5 max-w-sm m-auto">
+      <div className="max-w-6xl mx-auto grid grid-col-1 sm:grid-cols-2 gap-x-20 pt-20 gap-y-5 relative z-10">
+        <div className="m-auto grid gap-4">
+          <h1 className="text-6xl font-bold ">Viro Holdings LLC</h1>
+          <h2 className="text-1xl">Strategic investment and advisory for sustainable business growth</h2>
+          <div className="grid grid-cols-2 gap-5 max-w-sm">
             <Button className="bg-[#BC9A7B] text-black hover:bg-[#BC9A7B]">
               <Link href="/contact">Schedule a Consultation</Link>
             </Button>
@@ -55,20 +55,28 @@ export default function Home() {
             </Button>
           </div>
         </div>
+        <div className="grid gap-y-5 ">
+          <Image
+              src="/images/escudo-viro.png"   // ruta relativa a /public
+              alt="Viro Holdings image"
+              width={700}            // ancho real de la imagen
+              height={300}            // alto real de la imagen
+            /> 
+        </div>
       </div>
     </div>
 
-    <div className="px-2 py-10">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+    <div className="px-2 py-0">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20">
         <div className="content-center grid gap-3">
-          <h2 className="text-2xl">Building High-Performance Platforms for Logistics, Real Estate, and Infrastructure</h2>
+          <h2 className="text-2xl font-bold ">Building High-Performance Platforms for Logistics, Real Estate, and Infrastructure</h2>
           <p>
             We build and operate disciplined, compliant, and scalable platforms that empower businesses to grow sustainably and operate with confidence.
           </p>
         </div>
         <div>
             <Image
-              src="/images/home-01.png"   // ruta relativa a /public
+              src="/images/puerto-01.jpg"   // ruta relativa a /public
               alt="Viro Holdings image"
               width={600}            // ancho real de la imagen
               height={300}            // alto real de la imagen

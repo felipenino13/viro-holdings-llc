@@ -39,8 +39,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#0a132d] backdrop-blur">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-2 py-3">
+    <>
+    <header className="sticky top-0 z-50 backdrop-blur">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-2 py-3">
         {/* Brand */}
         <Link href="/" className="text-base font-semibold tracking-tight">
           <Image
@@ -105,5 +106,7 @@ export default function Navbar() {
         </div>
       )}
     </header>
+    </>
+    
   );
 }
