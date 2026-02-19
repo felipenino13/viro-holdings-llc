@@ -36,14 +36,14 @@ export const metadata: Metadata = {
 export default function Partnerships() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 pt-20 bg-[url(/images/partnership-01.jpeg)] bg-center bg-cover bg-no-repeat relative text-white -mt-30">
+    <div className="bg-[#0D1323] px-2 pt-20 bg-[url(/images/partnership-01.jpeg)] bg-to bg-cover bg-no-repeat relative text-white -mt-30">
       {/* Overlay azul oscuro */}
       <div className="absolute inset-0 bg-[#0D1323]/70">
       </div>
       
-      <div className="max-w-5xl mx-auto py-20 grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
+      <div className="max-w-6xl mx-auto py-60 grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
         <div className="grid gap-y-5 m-auto">
-          <h1 className="text-5xl">Partnerships</h1>
+          <h1 className="text-6xl font-bold">Partnerships</h1>
           <h2 className="text-1xl">Built on alignment, discipline, and long-term collaboration.</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">
           </div>
@@ -53,7 +53,7 @@ export default function Partnerships() {
     </div>
 
     <div className="px-2 py-10">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="m-auto gap-4 grid">
           <h2 className="text-2xl">Our Partnership Philosophy</h2>
           <p>
@@ -75,7 +75,7 @@ export default function Partnerships() {
     </div>
 
     <div className="px-2 py-10 bg-[#F4F4F4]">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="p-10 border border rounded-md bg-white gap-4 grid">
           <h2 className="text-2xl">Who We Partner With</h2>
           <p>
@@ -110,7 +110,7 @@ export default function Partnerships() {
     </div>
 
     <div className="px-2 py-10 bg-[#111F42]">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="text-white m-auto grid gap-4">
           <h2 className="text-2xl text-[#E4D3B9]">How We Structure Partnerships</h2>
           <p>
@@ -130,7 +130,7 @@ export default function Partnerships() {
     </div>
 
     <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div>
           <Image
               src="/images/home-13.png"   // ruta relativa a /public
@@ -152,7 +152,7 @@ export default function Partnerships() {
     </div>
 
     <div className="px-2 py-20 bg-[#F4F4F4]">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="gap-4 grid p-10 border rounded-md bg-[#F7EFE4]">
           <h2 className="text-2xl">Important Notice</h2>
           <p>
