@@ -38,8 +38,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 pb-10 bg-[url(/images/viroholdings-hero-montaje-01.jpg)] bg-center bg-cover bg-no-repeat relative text-white -mt-30">
-      {/* Overlay azul oscuro */}
+    <div className="bg-[#0D1323] px-2 pb-10 bg-[url(/images/viroholdings-/hero-montaje-01.jpg)] bg-center bg-cover bg-no-repeat relative text-white -mt-30">
+      {/* Overlay azul oscuro */}/
       
 
       <div className="max-w-6xl mx-auto grid grid-col-1 sm:grid-cols-2 gap-x-20 sm:pt-30 pt-40 gap-y-5 relative z-10">
