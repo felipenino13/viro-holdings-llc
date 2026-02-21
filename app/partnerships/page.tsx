@@ -36,11 +36,11 @@ export const metadata: Metadata = {
 export default function Partnerships() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 pt-20 bg-[url(/images/partnership-viro-v3.jpeg)] bg-to bg-cover bg-no-repeat relative text-white -mt-30">
+    <div className="bg-[#0D1323] px-2 bg-[url(/images/partnership-viro-v3.jpeg)] bg-to bg-cover bg-no-repeat relative text-white -mt-30">
       {/* Overlay azul oscuro */}
-      {/*<div className="absolute inset-0 bg-[#1F1F1F]/70"></div>*/}
+      {/*<div className="absolute inset-0 bg-linear-to-t from-[#1F1F1F]/70 to-[#FFFFFF]/0"></div>*/}
       
-      <div className="max-w-6xl mx-auto py-60 grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
+      <div className="max-w-6xl mx-auto pt-160 grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
         <div className="grid gap-y-5 m-auto">
           <h1 className="text-6xl font-bold">Partnerships</h1>
           <h2 className="text-1xl">Built on alignment, discipline, and long-term collaboration.</h2>

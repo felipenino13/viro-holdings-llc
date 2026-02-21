@@ -41,7 +41,7 @@ export default function News() {
       {/* Overlay azul oscuro */}
       {/*<div className="absolute inset-0 bg-[#0D1323]/70"></div>*/}
       
-      <div className="max-w-6xl mx-auto py-60 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
+      <div className="max-w-6xl mx-auto pt-160 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
         <div className="grid col-span-2 gap-y-5">
           <h1 className="text-5xl font-bold">News & Insights</h1>
           <h2 className="text-1xl">Updates, perspectives, and operational insights from across our platforms.</h2>

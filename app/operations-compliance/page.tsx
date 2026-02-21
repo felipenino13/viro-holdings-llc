@@ -40,11 +40,11 @@ export default function Operations() {
       {/* Overlay azul oscuro */}
       {/*<div className="absolute inset-0 bg-[#0D1323]/70"></div>*/}
       
-      <div className="max-w-6xl mx-auto py-60 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
-        <div className="grid col-span-2 gap-y-5">
-          <h1 className="text-5xl font-bold">Operations & Compliance</h1>
-          <h2 className="text-1xl">Disciplined execution, structured operations, and compliance-driven decision-making.</h2>
-          <div className="grid grid-cols-2 gap-5 max-w-sm">
+      <div className="max-w-6xl mx-auto pt-160 pb-10 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
+        <div className="grid col-span-3 sm:col-span-2 gap-y-5 content-end">
+          <div className="gap-4 grid">
+            <h1 className="text-5xl font-bold">Operations & Compliance</h1>
+            <h2 className="text-1xl">Disciplined execution, structured operations, and compliance-driven decision-making.</h2>
           </div>
         </div>
         <div>

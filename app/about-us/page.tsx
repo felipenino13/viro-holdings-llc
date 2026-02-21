@@ -37,12 +37,12 @@ export default function AboutUs() {
   return (
     <>
 
-    <div className="bg-[#0D1323] px-2 -mt-30 bg-[url(/images/about-viro-v3.jpeg)] bg-center bg-cover bg-no-repeat relative text-white">
+    <div className="bg-[#0D1323] px-2 -mt-30 bg-[url(/images/about-viro-v4.png)] bg-center bg-cover bg-no-repeat relative text-white">
       {/* Overlay azul oscuro */}
       {/*<div className="absolute inset-0 bg-[#0D1323]/70"></div>*/}
       
-      <div className="max-w-6xl mx-auto py-60 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
-        <div className="grid col-span-2 gap-y-5">
+      <div className="max-w-6xl mx-auto pt-160 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
+        <div className="grid col-span-2 gap-y-5 content-end">
           <h1 className="text-5xl font-bold">About Viro Holdings LLC</h1>
           <h2 className="text-1xl">Building disciplined, scalable platforms across logistics, industrial real estate, and infrastructure.</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">
