@@ -42,7 +42,7 @@ export default function News() {
       {/*<div className="absolute inset-0 bg-[#0D1323]/70"></div>*/}
       
       <div className="max-w-6xl mx-auto pt-160 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
-        <div className="grid col-span-2 gap-y-5">
+        <div className="grid col-span-3 sm:col-span-2 gap-y-5">
           <h1 className="text-5xl font-bold">News & Insights</h1>
           <h2 className="text-1xl">Updates, perspectives, and operational insights from across our platforms.</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">

@@ -41,7 +41,7 @@ export default function Platforms() {
       {/*<div className="absolute inset-0 bg-[#0D1323]/70"></div>*/}
       
       <div className="max-w-6xl pt-160 mx-auto grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
-        <div className="grid col-span-2 gap-y-5">
+        <div className="grid col-span-3 sm:col-span-2 gap-y-5">
           <h1 className="text-5xl font-bold">Our Platforms & Businesses</h1>
           <h2 className="text-1xl">Building and operating essential platforms across logistics, industrial real estate, and infrastructure.</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">

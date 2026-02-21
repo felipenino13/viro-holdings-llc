@@ -40,8 +40,8 @@ export default function Partnerships() {
       {/* Overlay azul oscuro */}
       {/*<div className="absolute inset-0 bg-linear-to-t from-[#1F1F1F]/70 to-[#FFFFFF]/0"></div>*/}
       
-      <div className="max-w-6xl mx-auto pt-160 grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
-        <div className="grid gap-y-5 m-auto">
+      <div className="max-w-6xl mx-auto pt-160 grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
+        <div className="grid gap-y-5 7">
           <h1 className="text-6xl font-bold">Partnerships</h1>
           <h2 className="text-1xl">Built on alignment, discipline, and long-term collaboration.</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">

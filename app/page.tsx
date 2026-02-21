@@ -67,14 +67,14 @@ export default function Home() {
     </div>
 
     <div className="px-2 py-10">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-12 gap-x-20">
-        <div className="content-center grid gap-3 col-span-5">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20">
+        <div className="content-center grid gap-3 col-span-1">
           <h2 className="text-2xl font-bold">Building High-Performance Platforms for Logistics, Real Estate, and Infrastructure</h2>
           <p>
             We build and operate disciplined, compliant, and scalable platforms that empower businesses to grow sustainably and operate with confidence.
           </p>
         </div>
-        <div className="col-span-7">
+        <div className="col-span-1">
             <Image
               src="/images/buliding-high-home-v3.jpg"   // ruta relativa a /public
               alt="Viro Holdings image"

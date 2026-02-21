@@ -42,7 +42,7 @@ export default function AboutUs() {
       {/*<div className="absolute inset-0 bg-[#0D1323]/70"></div>*/}
       
       <div className="max-w-6xl mx-auto pt-160 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
-        <div className="grid col-span-2 gap-y-5 content-end">
+        <div className="grid col-span-3 sm:col-span-2 gap-y-5 content-end">
           <h1 className="text-5xl font-bold">About Viro Holdings LLC</h1>
           <h2 className="text-1xl">Building disciplined, scalable platforms across logistics, industrial real estate, and infrastructure.</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">
