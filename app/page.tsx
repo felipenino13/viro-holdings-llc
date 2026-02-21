@@ -38,14 +38,14 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 pb-10 bg-[url(/images/viroholdings-hero-montaje-01.jpg)] bg-center bg-cover bg-no-repeat relative text-white -mt-30">
+    <div className="bg-[#0D1323] px-2 pb-10 bg-[url(/images/hero-background-home-v3.png)] bg-top bg-cover bg-no-repeat relative text-white -mt-30">
       {/* Overlay azul oscuro */}/
       
 
       <div className="max-w-6xl mx-auto grid grid-col-1 sm:grid-cols-2 gap-x-20 sm:pt-30 pt-40 gap-y-5 relative z-10">
         <div className="m-auto grid gap-4">
-          <h1 className="text-6xl font-bold ">Viro Holdings LLC</h1>
-          <h2 className="text-1xl">Strategic investment and advisory for sustainable business growth</h2>
+          <h1 className="text-6xl font-bold text-shadow-lg">Viro Holdings LLC</h1>
+          <h2 className="text-1xl text-shadow-lg">Strategic investment and advisory for sustainable business growth</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">
             <Button className="w-fit bg-[#BC9A7B] text-black hover:bg-[#BC9A7B]">
               <Link href="/contact">Schedule a Consultation</Link>
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <div className="col-span-7">
             <Image
-              src="/images/backgrpund-multiplatforms.jpg"   // ruta relativa a /public
+              src="/images/buliding-high-home-v3.jpg"   // ruta relativa a /public
               alt="Viro Holdings image"
               width={900}            // ancho real de la imagen
               height={300}            // alto real de la imagen
@@ -92,7 +92,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
 
           <div className="rounded-md bg-blend-multiply group relative aspect-square grid content-center gap-2 p-8 text-white 
-          bg-[#9397A3] bg-[url(/images/Logistics-s-01.jpg)] bg-center bg-cover bg-no-repeat 
+          bg-[#9397A3] bg-[url(/images/logistic-fregiht-v3.jpg)] bg-center bg-cover bg-no-repeat 
           transition-all duration-500 ease-in-out hover:scale-105 hover:bg-[#9397A3]">
 
             <h3 className="font-bold text-2xl text-[#FFFFFF] transition-all duration-300 group-hover:text-[#FFFFFF]">
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
 
           <div className="rounded-md bg-blend-multiply group relative aspect-square grid content-center gap-2 p-8 text-white 
-          bg-[#9397A3] bg-[url(/images/logistic-s-02.jpg)] bg-center bg-cover bg-no-repeat 
+          bg-[#9397A3] bg-[url(/images/real-state-v3.jpg)] bg-center bg-cover bg-no-repeat 
           transition-all duration-500 ease-in-out hover:scale-105 hover:bg-[#9397A3]">
 
             <h3 className="font-bold text-2xl text-[#FFFFFF] transition-all duration-300 group-hover:text-[#FFFFFF]">Industrial Real Estate</h3>
@@ -118,7 +118,7 @@ export default function Home() {
           </div>
 
           <div className="rounded-md bg-blend-multiply group relative aspect-square grid content-center gap-2 p-8 text-white 
-          bg-[#9397A3] bg-[url(/images/logistic-s-04.jpg)] bg-center bg-cover bg-no-repeat 
+          bg-[#9397A3] bg-[url(/images/infraestructure-v3.jpg)] bg-center bg-cover bg-no-repeat 
           transition-all duration-500 ease-in-out hover:scale-105 hover:bg-[#9397A3]">
 
             <h3 className="font-bold text-2xl text-[#FFFFFF] transition-all duration-300 group-hover:text-[#FFFFFF]">Infrastructure & Operations</h3>
@@ -137,7 +137,7 @@ export default function Home() {
       <div className="max-w-6xl mx-auto grid sm:grid-cols-2 grid-cols-1 gap-x-20 py-4">
         <div>
             <Image
-              src="/images/logisctic-s-03.jpg"   // ruta relativa a /public
+              src="/images/multisector-v3.png"   // ruta relativa a /public
               alt="Viro Holdings image"
               width={600}            // ancho real de la imagen
               height={300}            // alto real de la imagen
@@ -158,10 +158,10 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="px-2 py-20 bg-[url(/images/logistic-xl-01-v2.jpg)] bg-center bg-cover bg-no-repeat ">
+    <div className="px-2 py-20 bg-[url(/images/whyviro-v3.png)] bg-center bg-cover bg-no-repeat ">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className=" grid gap-2 p-10 rounded-md backdrop-blur-lg bg-white/56 border border-white/20">
-          <h2 className="text-2xl">Why Viro Holdings</h2>
+          <h2 className="text-2xl font-bold">Why Viro Holdings</h2>
           <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
             <li>Disciplined, system-driven operations</li>
             <li>Long-term ownership mindset</li>
@@ -171,7 +171,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="bg-white grid gap-2 p-10 border rounded-md backdrop-blur-lg bg-white/56 border border-white/20">
-          <h2 className="text-2xl">Our Operating Principles</h2>
+          <h2 className="text-2xl font-bold">Our Operating Principles</h2>
           <ul className="pl-5 text-black list-image-[url(/icons/check-icon.svg)]">
             <li>Operational Excellence Is Non-Negotiable</li>
             <li>Long-Term Thinking Over Short-Term Wins</li>
@@ -187,7 +187,7 @@ export default function Home() {
     <div className="px-2 py-10 bg-[#FFF8EC]">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="content-center grid gap-3">
-          <h2 className="text-2xl">Built for Long-Term Partnerships</h2>
+          <h2 className="text-2xl font-bold">Built for Long-Term Partnerships</h2>
           <p>
             We work with tenants, operators, and partners who value clarity, discipline, and long-term alignment.
           </p>
@@ -200,7 +200,7 @@ export default function Home() {
         </div>
         <div>
             <Image
-              src="/images/logistic-s-05.png"   // ruta relativa a /public
+              src="/images/partnership-home-v3.jpg"   // ruta relativa a /public
               alt="Viro Holdings image"
               width={600}            // ancho real de la imagen
               height={300}            // alto real de la imagen

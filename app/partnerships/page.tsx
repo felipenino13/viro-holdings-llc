@@ -36,10 +36,9 @@ export const metadata: Metadata = {
 export default function Partnerships() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 pt-20 bg-[url(/images/partnership-01.jpeg)] bg-to bg-cover bg-no-repeat relative text-white -mt-30">
+    <div className="bg-[#0D1323] px-2 pt-20 bg-[url(/images/partnership-viro-v3.jpeg)] bg-to bg-cover bg-no-repeat relative text-white -mt-30">
       {/* Overlay azul oscuro */}
-      <div className="absolute inset-0 bg-[#1F1F1F]/70">
-      </div>
+      {/*<div className="absolute inset-0 bg-[#1F1F1F]/70"></div>*/}
       
       <div className="max-w-6xl mx-auto py-60 grid grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
         <div className="grid gap-y-5 m-auto">
@@ -55,7 +54,7 @@ export default function Partnerships() {
     <div className="px-2 py-10">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="m-auto gap-4 grid">
-          <h2 className="text-2xl">Our Partnership Philosophy</h2>
+          <h2 className="text-2xl font-bold">Our Partnership Philosophy</h2>
           <p>
             Viro Holdings approaches partnerships with a long-term perspective. We believe the strongest relationships are built on clarity, accountability, and aligned incentives—not short-term transactions.
           </p>
@@ -77,7 +76,7 @@ export default function Partnerships() {
     <div className="px-2 py-10 bg-[#F4F4F4]">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="p-10 border border rounded-md bg-white gap-4 grid">
-          <h2 className="text-2xl">Who We Partner With</h2>
+          <h2 className="text-2xl font-bold">Who We Partner With</h2>
           <p>
             We work with organizations and individuals who share a commitment to disciplined execution, compliance, and long-term value creation.
           </p>
@@ -93,7 +92,7 @@ export default function Partnerships() {
           <p>Each partnership is evaluated based on strategic fit, operational alignment, and long-term objectives.</p>
         </div>
         <div className="p-10 border border rounded-md bg-white gap-4 grid">
-          <h2 className="text-2xl">What We Look For in a Partnership</h2>
+          <h2 className="text-2xl font-bold">What We Look For in a Partnership</h2>
           <p>
             We work with organizations and individuals who share a commitment to disciplined execution, compliance, and long-term value creation.
           </p>
@@ -112,7 +111,7 @@ export default function Partnerships() {
     <div className="px-2 py-10 bg-[#1F1F1F]">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="text-white m-auto grid gap-4">
-          <h2 className="text-2xl text-[#E4D3B9]">How We Structure Partnerships</h2>
+          <h2 className="text-2xl text-[#E4D3B9] font-bold">How We Structure Partnerships</h2>
           <p>
             Viro Holdings structures partnerships with clarity and discipline from the outset. We emphasize clearly defined terms, documented processes, and governance frameworks that support accountability and execution.
           </p>
@@ -140,7 +139,7 @@ export default function Partnerships() {
             /> 
         </div>
         <div className="m-auto grid gap-4">
-          <h2 className="text-2xl">Long-Term Alignment Over Transactions</h2>
+          <h2 className="text-2xl font-bold">Long-Term Alignment Over Transactions</h2>
           <p>
             We prioritize partnerships that are built to endure. Rather than focusing on isolated transactions, we seek relationships that evolve alongside the platforms we operate.
           </p>
@@ -154,7 +153,7 @@ export default function Partnerships() {
     <div className="px-2 py-20 bg-[#F4F4F4]">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="gap-4 grid p-10 border rounded-md bg-[#F7EFE4]">
-          <h2 className="text-2xl">Important Notice</h2>
+          <h2 className="text-2xl font-bold">Important Notice</h2>
           <p>
             Viro Holdings LLC does not offer or solicit investments, securities, or financial products through this website. Any information provided is for general informational purposes only and does not constitute an offer, solicitation, or recommendation to engage in any investment activity.
           </p>
@@ -163,7 +162,7 @@ export default function Partnerships() {
           </p>
         </div>
         <div className="gap-4 grid content-start p-10 border rounded-md bg-white">
-          <h2 className="text-2xl">Built on Clarity and Trust</h2>
+          <h2 className="text-2xl font-bold">Built on Clarity and Trust</h2>
           <p>
             Viro Holdings believes that strong partnerships are built through structure, discipline, and shared commitment to long-term objectives. We work with partners who value clarity, accountability, and operational excellence.
           </p>

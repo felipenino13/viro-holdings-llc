@@ -37,14 +37,13 @@ export default function AboutUs() {
   return (
     <>
 
-    <div className="bg-[#0D1323] px-2 py-30 bg-[url(/images/banner-about-us-01.png)] bg-center bg-cover bg-no-repeat relative text-white">
+    <div className="bg-[#0D1323] px-2 -mt-30 bg-[url(/images/about-viro-v3.jpeg)] bg-center bg-cover bg-no-repeat relative text-white">
       {/* Overlay azul oscuro */}
-      <div className="absolute inset-0 bg-[#0D1323]/70">
-      </div>
+      {/*<div className="absolute inset-0 bg-[#0D1323]/70"></div>*/}
       
-      <div className="max-w-5xl mx-auto grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
+      <div className="max-w-6xl mx-auto py-60 grid grid-cols-3 gap-x-20 py-4 gap-y-5 relative z-10">
         <div className="grid col-span-2 gap-y-5">
-          <h1 className="text-5xl">About Viro Holdings LLC</h1>
+          <h1 className="text-5xl font-bold">About Viro Holdings LLC</h1>
           <h2 className="text-1xl">Building disciplined, scalable platforms across logistics, industrial real estate, and infrastructure.</h2>
           <div className="grid grid-cols-2 gap-5 max-w-sm">
           </div>
@@ -56,9 +55,9 @@ export default function AboutUs() {
     </div>
 
     <div className="px-2 py-10">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="content-center grid gap-3"> 
-          <h2 className="text-2xl">Who We Are</h2>
+          <h2 className="text-2xl font-bold">Who We Are</h2>
           <p>
             Our purpose is to create durable business platforms that solve real operational challenges and support long-term economic activity. We focus on systems that move goods, support industry, and enable businesses to operate efficiently within complex regulatory and operational environments.
           </p>
@@ -78,7 +77,7 @@ export default function AboutUs() {
     </div>
 
     <div className="px-2 py-10 bg-[#FFF8EC]">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div>
           <Image
               src="/images/home-05.png"   // ruta relativa a /public
@@ -88,7 +87,7 @@ export default function AboutUs() {
             />  
         </div>
         <div className="content-center grid gap-3">
-          <h2 className="text-2xl">Our Approach</h2>
+          <h2 className="text-2xl font-bold">Our Approach</h2>
           <p>
             Viro Holdings operates with a clear and disciplined framework that guides every decision.
           </p>
@@ -106,24 +105,24 @@ export default function AboutUs() {
       </div>
     </div>
 
-    <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-x-20 py-4 gap-10">
-        <h2 className="text-2xl text-center">Core Sectors We Operate In</h2>
+    <div className="px-2 py-20 bg-[#1F1F1F]">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 gap-x-20 py-4 gap-10">
+        <h2 className="text-2xl text-center font-bold text-[#E4D3B9]">Core Sectors We Operate In</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
-          <div  className="grid gap-2 bg-[#0a132d] text-white p-8">
-            <h3 className="text-xl text-[#E4D3B9]">Logistics & Freight Operations</h3>
+          <div  className="grid gap-2 bg-[#282828] text-white p-8">
+            <h3 className="text-xl text-[#E4D3B9] font-bold">Logistics & Freight Operations</h3>
             <p>
               We develop and operate logistics and freight platforms designed to support domestic and international trade. Our focus is on efficiency, clarity, and systems that enable the reliable movement of goods across markets.
             </p>
           </div>
-          <div className="grid gap-2 bg-[#0a132d] text-white p-8">
-            <h3 className="text-xl text-[#E4D3B9]">Industrial Real Estate</h3>
+          <div className="grid gap-2 bg-[#282828] text-white p-8">
+            <h3 className="text-xl text-[#E4D3B9] font-bold">Industrial Real Estate</h3>
             <p>
               We build and manage industrial real estate assets that support operational businesses. These assets are designed for long-term use, regulatory compliance, and adaptability to evolving operational needs.
             </p>
           </div>
-          <div className="grid gap-2 bg-[#0a132d] text-white p-8">
-            <h3 className="text-xl text-[#E4D3B9]">Infrastructure & Operational Platforms</h3>
+          <div className="grid gap-2 bg-[#282828] text-white p-8">
+            <h3 className="text-xl text-[#E4D3B9] font-bold">Infrastructure & Operational Platforms</h3>
             <p>
               We support infrastructure-driven businesses by providing structured operational frameworks that emphasize reliability, compliance, and long-term performance.
             </p>
@@ -132,14 +131,14 @@ export default function AboutUs() {
       </div>
     </div>
 
-    <div className="px-2 py-10 bg-[#111F42] text-white">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+    <div className="px-2 py-10 bg-[#F1F1F1] text-black">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="content-center grid gap-3">
-          <h2 className="text-2xl">Our Values & Operating Principles</h2>
+          <h2 className="text-2xl font-bold">Our Values & Operating Principles</h2>
           <p>
             Our values guide how we operate, partner, and build.
           </p>
-          <ul className="pl-5 text-black list-image-[url(/icons/check-icon-white.svg)] text-white">
+          <ul className="pl-5 text-black list-image-[url(/icons/check-icon-white.svg)] text-black">
             <li>Operational excellence is non-negotiable</li>
             <li>Accountability at every level</li>
             <li>Compliance as a strategic advantage</li>
@@ -162,9 +161,9 @@ export default function AboutUs() {
     </div>
 
     <div className="px-2 py-10">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="grid gap-2 p-8 border rounded-md">
-          <h2 className="text-2xl">How We Work With Partners</h2>
+          <h2 className="text-2xl font-bold">How We Work With Partners</h2>
           <p>
             Viro Holdings works with tenants, operators, and strategic partners who value structure, transparency, and long-term alignment. We believe strong partnerships are built through clear expectations, disciplined execution, and shared commitment to sustainable outcomes.
           </p>
@@ -173,7 +172,7 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="grid gap-2 p-8 border rounded-md">
-          <h2 className="text-2xl">Built for the Long Term</h2>
+          <h2 className="text-2xl font-bold">Built for the Long Term</h2>
           <p>
             Viro Holdings LLC exists to build platforms that last. Through disciplined execution, operational involvement, and long-term perspective, we support businesses and industries that depend on reliable systems and infrastructure.
           </p>

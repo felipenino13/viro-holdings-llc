@@ -36,14 +36,14 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <>
-    <div className="bg-[#0D1323] px-2 py-10 bg-[url(/images/banner-contact-01.png)] bg-center bg-cover bg-no-repeat relative text-white">
+    <div className="bg-[#0D1323] px-2 -mt-30 bg-[url(/images/banner-contact-01.png)] bg-center bg-cover bg-no-repeat relative text-white">
       {/* Overlay azul oscuro */}
-      <div className="absolute inset-0 bg-[#0D1323]/70">
-      </div>
+      {/*<div className="absolute inset-0 bg-[#0D1323]/70"> </div>*/}
       
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
+      
+      <div className="max-w-6xl mx-auto py-60 grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4 gap-y-5 relative z-10">
         <div className="grid gap-y-5 content-center">
-          <h1 className="text-5xl">Contact Viro Holdings LLC</h1>
+          <h1 className="text-5xl font-bold">Contact Viro Holdings LLC</h1>
           <p>
           Viro Holdings LLC operates within the United States and engages with partners and operators across multiple regions.
           </p>
@@ -61,9 +61,9 @@ export default function Contact() {
     </div>
 
     <div className="px-2 py-20">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-x-20 py-4">
         <div className="p-10 gap-4 grid content-start">
-          <h2 className="text-2xl">How to Reach Us</h2>
+          <h2 className="text-2xl font-bold">How to Reach Us</h2>
           <p>
             Viro Holdings LLC welcomes professional inquiries related to our platforms, operations, and long-term partnerships. We value clear communication and structured engagement and will respond to inquiries that align with our operational focus.
           </p>
@@ -72,7 +72,7 @@ export default function Contact() {
           </p>
         </div>
         <div className="p-10 gap-4 grid content-start border rounded-md">
-          <h2 className="text-2xl">Professional Communication, Built on Clarity</h2>
+          <h2 className="text-2xl font-bold">Professional Communication, Built on Clarity</h2>
           <p>
             We value thoughtful, relevant communication aligned with our operational focus and long-term objectives.
           </p>

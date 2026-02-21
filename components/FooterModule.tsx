@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function FooterModule(){
     return(
     <footer className="bg-[#04090F] px-2 py-10 text-white">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-4 gap-x-20 py-8 gap-4">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-4 gap-x-20 py-8 gap-4">
             <div className="gap-4 grid">
             <Image
               src="/images/viro-holdings-white.svg"   // ruta relativa a /public
@@ -20,7 +20,7 @@ export default function FooterModule(){
             </div>
 
             <div>
-            <h5>Company</h5>
+            <h5 className="font-bold">Company</h5>
             <ul className="text-sm">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about-us">About</Link></li>
@@ -32,7 +32,7 @@ export default function FooterModule(){
             </div>
 
             <div>
-            <h5>Follow Us</h5>
+            <h5 className="font-bold">Follow Us</h5>
             <ul className="text-sm">
                 <li><Link href="https://www.tiktok.com/@viro.hoodings.llc?_r=1&_t=ZP-93qdKULmsNb">TikTok</Link></li>
                 <li><Link href="https://www.instagram.com/p/DUo_QnBEUoe/?igsh=MWozaWRreTViNTE3ag==">Instagram</Link></li>
@@ -41,7 +41,7 @@ export default function FooterModule(){
             </div>
 
             <div>
-            <h5>Contact</h5>
+            <h5 className="font-bold">Contact</h5>
                 <p className="text-sm">2323 NW 82nd Ave<br></br>Doral FL 33122</p>
                 <p className="text-sm"><Link href="mailto:info@viroholdingsllc.com">info@viroholdingsllc.com</Link></p>
                 <p><Link href="tel:+17862334973">(786) 233-4973</Link></p>

@@ -81,7 +81,7 @@ export default function ContactForm() {
   return (
     <form onSubmit={onSubmit} className="w-full max-w-2xl space-y-6">
       {/* Card */}
-      <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm backdrop-blur">
+      <div className="rounded-2xl border border-white/10 bg-[#181818]/40 p-6 shadow-sm backdrop-blur">
         <div className="mb-6">
           <h2 className="text-xl font-semibold tracking-tight text-white">Send Us a Message</h2>
           <p className="mt-1 text-sm text-white/70">

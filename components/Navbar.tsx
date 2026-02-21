@@ -55,7 +55,7 @@ export default function Navbar() {
         "sticky top-0 z-50 w-full",
         "backdrop-blur-md",
         "transition-colors duration-300",
-        scrolled ? "bg-[#181818]/80" : "bg-transparent",
+        scrolled ? "bg-[#181818]/80" : "bg-[#181818]/40",
       ].join(" ")}>
          {/* Top bar */}
       <div className="w-full bg-[#1F1F1F]">
@@ -94,7 +94,7 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 className={[
-                  "text-sm transition-colors",
+                  "text-sm transition-colors text-shadow-sm",
                   active ? "font-semibold text-white" : "text-white hover:text-[#bc9a7b]",
                 ].join(" ")}
               >
