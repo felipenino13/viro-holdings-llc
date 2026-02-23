@@ -37,7 +37,7 @@ export default function AboutUs() {
   return (
     <>
 
-    <div className="bg-[#0D1323] px-2 -mt-30 bg-[url(/images/about-viro-v4.png)] bg-center bg-cover bg-no-repeat relative text-white">
+    <div className="bg-[#0D1323] px-2 -mt-30 bg-[url(/images/contact-us-v4.jpeg)] bg-top bg-cover bg-no-repeat relative text-white">
       {/* Overlay azul oscuro */}
       {/*<div className="absolute inset-0 bg-[#0D1323]/70"></div>*/}
       
